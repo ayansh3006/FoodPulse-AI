@@ -1,0 +1,64 @@
+# =========================
+# SECRETS / CREDENTIALS
+# =========================
+.env
+*.env
+creds
+creds.*
+**/creds
+**/creds.*
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# =========================
+# STREAMLIT
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# RAG CACHE
+# =========================
+*.parquet
+review_embeddings.parquet
+
+# =========================
+# DBT GENERATED FILES
+# =========================
+foodpulse/target/
+foodpulse/logs/
+foodpulse/dbt_packages/
+
+# =========================
+# AIRFLOW GENERATED FILES
+# =========================
+airflow/logs/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# =========================
+# PYTHON TOOLING
+# =========================
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# DATASETS
+# =========================
+Data/
